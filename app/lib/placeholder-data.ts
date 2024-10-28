@@ -3,11 +3,83 @@
 const users = [
   {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',
-    name: 'User',
+    username: 'User',
     email: 'user@nextmail.com',
     password: '123456',
+    role : 'admin'
   },
+  {
+    id: 'f218bca7-5c54-472e-a3e2-c24be8a1243b',
+    username: 'JaneDoe',
+    email: 'jane.doe@nextmail.com',
+    password: 'password123',
+    role: 'user'
+  },
+  {
+    id: '81a2b08b-d41a-4d1c-83a1-09cfe8a70f2c',
+    username: 'JohnSmith',
+    email: 'john.smith@nextmail.com',
+    password: 'securePass',
+    role: 'admin'
+  },
+  {
+    id: '7a6f8e13-c1c1-48ff-8f03-1a4c5a6b82c2',
+    username: 'AliceW',
+    email: 'alice.white@nextmail.com',
+    password: 'alice2023',
+    role: 'user'
+  },
+  {
+    id: 'd5fa8a1f-98d2-439e-9f33-b9ed129c9e71',
+    username: 'BobM',
+    email: 'bob.marley@nextmail.com',
+    password: 'reggaeLover',
+    role: 'admin'
+  },
+  {
+    id: '3f5c1a3f-6f8a-4189-97b9-f7d7f74d204a',
+    username: 'CharlieP',
+    email: 'charlie.peace@nextmail.com',
+    password: 'peaceAndLove',
+    role: 'user'
+  },
+  {
+    id: '462ff2be-7132-4e1a-9380-4b610aa7b1c8',
+    username: 'DanaR',
+    email: 'dana.rose@nextmail.com',
+    password: 'danaSecure',
+    role: 'admin'
+  },
+  {
+    id: '91153c88-5ed1-4b4a-94bc-3bb519b2a8df',
+    username: 'EveM',
+    email: 'eve.martin@nextmail.com',
+    password: 'evePass987',
+    role: 'user'
+  },
+  {
+    id: 'ef8fda07-b421-4971-8c7a-57c9e7c0f34c',
+    username: 'FrankT',
+    email: 'frank.trent@nextmail.com',
+    password: 'frank123',
+    role: 'admin'
+  },
+  {
+    id: '5c7dfbd8-9ed3-4458-8c2e-4d9f1e8d8d5f',
+    username: 'GraceK',
+    email: 'grace.king@nextmail.com',
+    password: 'graceKing001',
+    role: 'user'
+  },
+  {
+    id: 'bd3df2a4-8153-4e7d-8e2d-39e4f4a6e3c4',
+    username: 'HenryL',
+    email: 'henry.lane@nextmail.com',
+    password: 'henryLpassword',
+    role: 'admin'
+  }
 ];
+
 
 const customers = [
   {
