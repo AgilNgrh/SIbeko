@@ -2,12 +2,61 @@
 // It describes the shape of the data, and what data type each property should accept.
 // For simplicity of teaching, we're manually defining these types.
 // However, these types are generated automatically if you're using an ORM such as Prisma.
-export type User = {
+export type users = {
   id: string;
-  name: string;
+  username: string;
   email: string;
   password: string;
+  role:string;
 };
+
+export type transaksi_pembelian = {
+  id:string;
+  tanggal_pembelian: string;
+  nama_distributor: string;
+  produk: string;
+  total_harga: number;
+  status_pembelian: string;
+}
+
+export type transaksi_penjualan = {
+  id: string;
+  tanggal_transaksi: string;
+  pegawai: string;
+  pelanggan: string;
+  produk: string;
+  total_harga: number;
+  metode_pembayaran: string;
+}
+
+export type produk = {
+  id: string;
+  nama_produk: string;
+  image_url: string;
+  kategori: string;
+  harga: number;
+}
+
+export type pelanggan = {
+  id: string;
+  nama_pelanggan: string;
+  nomor_telepon: string;
+  alamat: string;
+}
+
+export type poin = {
+  id: string;
+  username: string;
+  jumlah_poin: number;
+  tanggal_diperoleh: string;
+}
+
+export type bahan = {
+  id: string;
+  produk: string;
+  kategori: string;
+  jumlah: number;
+}
 
 export type Customer = {
   id: string;
