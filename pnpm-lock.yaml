@@ -45,6 +45,12 @@ importers:
       react-dom:
         specifier: 19.0.0-rc-cd22717c-20241013
         version: 19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013)
+      run:
+        specifier: ^1.5.0
+        version: 1.5.0
+      seed:
+        specifier: ^0.4.4
+        version: 0.4.4
       tailwindcss:
         specifier: 3.4.4
         version: 3.4.4
@@ -399,6 +405,10 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
+  breeze@0.4.0:
+    resolution: {integrity: sha512-YPWeVQKW1Zh4gq567pj9LPVsEfUHyXdqu1AJSIGomBMNTauFYFP4BgJ1NL8v0FqHY5JwLzyCj7nzIfuDQAsvZA==}
+    deprecated: npm ownership change
+
   browserslist@4.23.0:
     resolution: {integrity: sha512-QW8HiM1shhT2GuzkvklfjcKDiWFXHOeFCIA/huJPwHsslwcydgk7X+z2zXpEijP98UCY7HbubZt5J2Zgvf0CaQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
@@ -500,6 +510,13 @@ packages:
   dlv@1.1.3:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
 
+  dragonfly@0.2.1:
+    resolution: {integrity: sha512-IIG+7an8YdneVG05p7qjI1lTBiAV4AHGub8OjKpXxtMfcZzc+slp5sS+uHEOWq2g5AHkJh8ppdHCz2q2J8fTcg==}
+
+  drip@0.3.1:
+    resolution: {integrity: sha512-sZ+xw0tagXFeoEz8U6xXDK7YBjst7jhtUo7gEkZYalMO7MHTbYJ74ONLFzmJKPHORSMxNlhmwNkHZaT+LtpoGQ==}
+    engines: {node: '>= 0.4.8'}
+
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
@@ -526,6 +543,10 @@ packages:
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
+
+  filtr@0.3.0:
+    resolution: {integrity: sha512-hY88bqjODQGMw1erWGwUzV6yZncnSzV+5uIeEaeWHGgN/BEQBfLG1CwQb4nDWHcyDcsAaTl1B1n18MC9NCAejg==}
+    engines: {node: '>=0.4.8'}
 
   foreground-child@3.1.1:
     resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
@@ -772,6 +793,10 @@ packages:
     resolution: {integrity: sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==}
     deprecated: This package is no longer supported.
 
+  oath@0.2.3:
+    resolution: {integrity: sha512-/uTqn2KKy671SunNXhULGbumn2U3ZN84LvYZdnfSqqqBkM6cppm+jcUodWELd9CYVNYGh6QwJEEAQ0WM95qjpA==}
+    engines: {node: '>= 0.4.8'}
+
   oauth4webapi@2.11.1:
     resolution: {integrity: sha512-aNzOnL98bL6izG97zgnZs1PFEyO4WDVRhz2Pd066NPak44w5ESLRCYmJIyey8avSBPOMtBjhF3ZDDm7bIb7UOg==}
 
@@ -938,11 +963,20 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
+  run@1.5.0:
+    resolution: {integrity: sha512-CBPzeX6JQZUdhZpSFyNt2vUk44ivKMWZYCNBYoZYEE46mL9nf6WyMP3320WnzIrJuo89+njiUvlo83jUEXjXLg==}
+    engines: {node: '>=v0.9.0'}
+    hasBin: true
+
   safe-buffer@5.2.1:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
 
   scheduler@0.25.0-rc-cd22717c-20241013:
     resolution: {integrity: sha512-MnsFR57bKcrYslnbCUsaUG0qBuAArk92VxE0zu6A2Usz38iIuL2uZLunqKlP1W47MF33GrRGDj1sXdPbFKIZfw==}
+
+  seed@0.4.4:
+    resolution: {integrity: sha512-f7CTMFxC9h0LljjBaHPke9epEiupNpxxHYVaZhnMZnO8AfqNMxnYlaMDJPYmjGHI0fUXO48BmExsukNrXCNiSA==}
+    engines: {node: '>= v0.6.0'}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -982,6 +1016,9 @@ packages:
 
   simple-swizzle@0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
+
+  sol@0.3.0:
+    resolution: {integrity: sha512-/peFiFOAGoa0qgajE4KiEJ4KmjtMQBsDiOwy/6KkwYXl2x28jVDGnv6ntnqcSoMtAm+QNh8qv8XwHGuSzbLD9A==}
 
   source-map-js@1.2.0:
     resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
@@ -1027,6 +1064,10 @@ packages:
     resolution: {integrity: sha512-8EbVDiu9iN/nESwxeSxDKe0dunta1GOlHufmSSXxMD2z2/tMZpDMpvXQGsc+ajGo8y2uYUmixaSRUc/QPoQ0GA==}
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
+
+  super@0.2.3:
+    resolution: {integrity: sha512-fjYEpGyjeC7yeAqz9vb5pwuqgSvJ8adkMowLgfltfUnP9P8g17+l0GridSWkCuTaclxE5y4EcyZj8L2NI7t1Hg==}
+    engines: {node: '>= 0.6.0'}
 
   supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
@@ -1435,6 +1476,8 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
+  breeze@0.4.0: {}
+
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001632
@@ -1522,6 +1565,10 @@ snapshots:
 
   dlv@1.1.3: {}
 
+  dragonfly@0.2.1: {}
+
+  drip@0.3.1: {}
+
   eastasianwidth@0.2.0: {}
 
   electron-to-chromium@1.4.789: {}
@@ -1547,6 +1594,8 @@ snapshots:
   fill-range@7.1.1:
     dependencies:
       to-regex-range: 5.0.1
+
+  filtr@0.3.0: {}
 
   foreground-child@3.1.1:
     dependencies:
@@ -1766,6 +1815,8 @@ snapshots:
       gauge: 3.0.2
       set-blocking: 2.0.0
 
+  oath@0.2.3: {}
+
   oauth4webapi@2.11.1: {}
 
   object-assign@4.1.1: {}
@@ -1908,9 +1959,23 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
+  run@1.5.0:
+    dependencies:
+      minimatch: 9.0.4
+
   safe-buffer@5.2.1: {}
 
   scheduler@0.25.0-rc-cd22717c-20241013: {}
+
+  seed@0.4.4:
+    dependencies:
+      breeze: 0.4.0
+      dragonfly: 0.2.1
+      drip: 0.3.1
+      filtr: 0.3.0
+      oath: 0.2.3
+      sol: 0.3.0
+      super: 0.2.3
 
   semver@6.3.1: {}
 
@@ -1963,6 +2028,8 @@ snapshots:
       is-arrayish: 0.3.2
     optional: true
 
+  sol@0.3.0: {}
+
   source-map-js@1.2.0: {}
 
   streamsearch@1.1.0: {}
@@ -2005,6 +2072,8 @@ snapshots:
       mz: 2.7.0
       pirates: 4.0.6
       ts-interface-checker: 0.1.13
+
+  super@0.2.3: {}
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
