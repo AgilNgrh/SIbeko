@@ -1,6 +1,6 @@
 // import bcrypt from 'bcrypt';
 // import { db } from '@vercel/postgres';
-// import { invoices, customers, revenue, users } from '../lib/placeholder-data';
+// import { users, transaksi_pembelian, transaksi_penjualan, produk, pelanggan, poin, bahan, customers, invoices, revenue };  from '../lib/placeholder-data';
 
 // const client = await db.connect();
 
@@ -28,6 +28,8 @@
 
 //   return insertedUsers;
 // }
+
+
 
 // async function seedInvoices() {
 //   await client.sql`CREATE EXTENSION IF NOT EXISTS "uuid-ossp"`;
